@@ -1,0 +1,16 @@
+# aliases for confluence application
+alias confadminrec='grep -i "Recovery admin username:" /var/atlassian/application-data/confluence/logs/atlassian-confluence-security.log'
+alias confhome='cd /var/atlassian/application-data/confluence/'
+alias confinst='cd /opt/atlassian/confluence/bin/'
+alias conflog='tail -f /var/atlassian/application-data/confluence/logs/atlassian-confluence.log'
+
+alias isconfrunning='ps -aux | grep java | grep confluence'
+
+alias startconfluence='/opt/atlassian/confluence/bin/start-confluence.sh'
+alias stopconfluence='/opt/atlassian/confluence/bin/stop-confluence.sh'
+
+# aliases for common ops
+alias cls='clear'
+alias cbp='cat ~/.bash_profile'
+alias nbp='nano ~/.bash_profile'
+alias sbp='source ~/.bash_profile'
