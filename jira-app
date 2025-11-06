@@ -1,0 +1,17 @@
+# aliases for jira application
+alias jiraadminrec='grep -i "Recovery admin username:" /var/atlassian/application-data/jira/log/atlassian-jira-security.log'
+alias jirahome='cd /var/atlassian/application-data/jira/'
+alias jirainst='cd /opt/atlassian/jira/bin/'
+alias jiralog='tail -f /var/atlassian/application-data/jira/log/atlassian-jira.log'
+alias jiraerror='grep -i error /var/atlassian/application-data/jira/log/atlassian-jira.log'
+
+alias isjirarunning='ps -aux | grep java | grep jira'
+
+alias startjira='/opt/atlassian/jira/bin/start-jira.sh'
+alias stopjira='/opt/atlassian/jira/bin/stop-jira.sh'
+
+# aliases for common ops
+alias cls='clear'
+alias cbp='cat ~/.bash_profile'
+alias nbp='nano ~/.bash_profile'
+alias sbp='source ~/.bash_profile'
